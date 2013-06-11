@@ -9,10 +9,12 @@
 	var chk = 2;
 	var max = 0;
                          
-      while (chk*chk <= newNum){ 
-            if (newNum % chk == 0){
-		factors.push(chk);     
-               newNum = newNum/chk;
+      while (chk*chk <= newNum)
+      { 
+            if (newNum % chk == 0)
+            {
+            	factors.push(chk);
+            	newNum = newNum/chk;
             } 
 	    else 
 	    {
