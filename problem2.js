@@ -11,20 +11,26 @@
 	  a = b;
 	  b = c;
 	  c = a + b;
-	  if(b % 2 == 0) {
-		evenSum += b;
+	  
+	  if(b % 2 == 0) 
+	  {
+	  	evenSum += b;
 	  }	  
 	}
+	
 	document.write(evenSum);
 	answerCheck(evenSum);
 
 function answerCheck(answer) {
-	if(answer == 4613732){
-	document.write("<br>PASS");
-	} else {
-	document.write("<br>FAIL");
+	if(answer == 4613732)
+	{
+		document.write("<br>PASS");
+	} 
+	else 
+	{
+		document.write("<br>FAIL");
 	}
-	}
+}
 
 	
 
