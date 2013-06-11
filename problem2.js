@@ -1,6 +1,7 @@
 //Prog:	Ryan Barrineau
 //File: problem2.html
-//Purp: Fibonacci sequence whose values do not exceed four million, //	find the sum of the even-valued terms
+//Purp: Fibonacci sequence whose values do not exceed four million, 
+//	find the sum of the even-valued terms
 	
 	var a = 1;
 	var b = 1;
