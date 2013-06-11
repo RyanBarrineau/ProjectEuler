@@ -1,5 +1,6 @@
-ProjectEuler2
+ProjectEuler
 =============
 
-Problem 2- By considering the terms in the Fibonacci sequence whose values do not exceed four million,
-find the sum of the even-valued terms.
+This repository contains my javascript code from Project Euler. 
+Only solved problems are placed in the repository.
+Once in the repository, I will make them more readable and better formatted.
