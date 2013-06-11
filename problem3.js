@@ -14,17 +14,21 @@
 		factors.push(chk);     
                newNum = newNum/chk;
             } 
-	    else {
-                  chk++;                     
+	    else 
+	    {
+               chk++;                     
             }
       }
-      if (newNum != 1){                                     
-           factors.push(newNum);          
+      if (newNum != 1)
+      {                                     
+          factors.push(newNum);          
       }
 
-	for(var i = 0; factors[i] != null; i++) {
-	   if(factors[i] > max) {
-	     max = factors[i];
+	for(var i = 0; factors[i] != null; i++) 
+	{
+	   if(factors[i] > max) 
+	   {
+	      max = factors[i];
 	   }	   
 	}  
 	document.write(max);  
